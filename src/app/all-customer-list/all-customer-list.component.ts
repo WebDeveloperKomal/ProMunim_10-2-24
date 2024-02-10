@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BranchModel } from '../branch/branch.component.model';
 import { ApiService } from '../api.service';
 import { Router } from '@angular/router';
+import { DepartmentModel } from '../department/department.component.model';
 
 @Component({
   selector: 'app-all-customer-list',
@@ -20,7 +21,10 @@ export class AllCustomerListComponent {
   countries: AllCustomerListModel[] | undefined;
   collectionSize =100;
   employeeForm !: FormGroup;
-
+  insertemployee!:boolean;
+  branches:BranchModel[] = [];
+  mainDeps=[{id:0,mainDepName:''}];
+  deps:DepartmentModel[] = [];
 
   allCust:AllCustomerListModel[]=[];
 

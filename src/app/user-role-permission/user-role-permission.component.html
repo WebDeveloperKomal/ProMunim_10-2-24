@@ -66,7 +66,8 @@
             <div class="dataTables_length" id="branch_datatable_length"> 
           <p>Show
             <select name="branch_datatable_length" (ngModelChange)="refreshCountries()" [(ngModel)]="pageSize"
-              aria-controls="branch_datatable">
+              aria-controls="branch_datatable" style=" border: 0.46063px solid #3BB161;
+              border-radius: 10px;color: #004C8C; ">
           <option [ngValue]="10">10</option>
               <option [ngValue]="25">25</option>
               <option [ngValue]="50">50</option>
@@ -79,12 +80,12 @@
 
 <p><input class="w-100" type="text" style="border-radius: 20px;" [(ngModel)]="SearchText"
 (input)="applyFilter()" placeholder="search" aria-controls="branch_datatable">
-<svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative; top : -28px ; right: -90%">
+<!-- <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative; top : -28px ; right: -90%">
 <path d="M6.59222 7.21594C4.72692 8.64196 2.25072 8.25756 0.893999 6.59439C-0.397597 5.01336 -0.278206 2.65578 1.17775 1.19256C2.63215 -0.269108 4.97966 -0.40396 6.57981 0.881008C8.24199 2.21558 8.66218 4.69561 7.21863 6.59594C7.72721 7.09969 8.23889 7.605 8.74901 8.11186C8.80638 8.16766 8.86375 8.22346 8.91027 8.28856C9.04206 8.46991 9.02656 8.70241 8.87771 8.85897C8.7211 9.02172 8.47147 9.05272 8.2916 8.90392C8.11329 8.75667 7.95514 8.58461 7.79078 8.42031C7.38919 8.01886 6.98915 7.61585 6.59222 7.21594ZM0.890898 3.97175C0.818022 5.65507 2.20575 7.13224 3.92995 7.20664C5.65259 7.28104 7.13646 5.90308 7.20778 4.1624C7.2791 2.42638 5.90688 0.966259 4.13152 0.893408C2.42128 0.822107 0.968424 2.20163 0.890898 3.97175Z" fill="#3BB161"/>
-</svg>
+</svg> -->
 
 </p>
-<p><input *ngIf="insertRole" type="button" (click)="shownewrole()" class="btn-info" style="border-radius: 20px; padding: 5px 25px;float: right; margin-left: 10px;" 
+<p><input *ngIf="insertRole" type="button" (click)="shownewrole()" class="btn btn-info" style="border-radius: 20px; padding: 5px 25px;float: right; margin-left: 10px;" 
 value="Add New Role" >
 </p>
 </div>
@@ -171,7 +172,7 @@ value="Add New Role" >
                                   <div class="modal-dialog">
                                     <div class="modal-content">
                                       <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Admin</h5>
+                                        <h5 class="modal-title offset-md-5" id="exampleModalLabel">Admin</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                           aria-label="Close"></button>
                                       </div>
@@ -960,13 +961,13 @@ value="Add New Role" >
                                         </div> -->
 
                                         <div class="text-center" >
-                                          <button class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center; "
+                                          <button class="col-3 col-lg-3 col-xl-3 btn btn-info" style="border-radius: 2rem;text-align: center; "
                                             (click)="editRolePermissions()" type="submit">
                                             <!-- <i class="ace-icon fa fa-check bigger-110"></i> -->
                                             Update
                                           </button>
               
-                                          <button class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center;">
+                                          <button class="col-3 col-lg-3 col-xl-3 btn btn-info" style="border-radius: 2rem;text-align: center;">
                                             <!-- <i class="ace-icon fa fa-undo bigger-110"></i> -->
                                             Close
                                           </button>
@@ -1799,13 +1800,13 @@ value="Add New Role" >
 
 
                                   <div class="text-center">
-                                    <button class="col-3 col-lg-3 col-xl-3 btn-info" style=" border-radius: 2rem;text-align: center; "
+                                    <button class="col-3 col-lg-3 col-xl-3 btn btn-info" style=" border-radius: 2rem;text-align: center;height: 36px; "
                                       (click)="addNewRole()" type="submit">
                                       <!-- <i class="ace-icon fa fa-check bigger-110"></i> -->
                                       Submit
                                     </button>
         
-                                    <button class="col-3 col-lg-3 col-xl-3 btn-info " style=" border-radius: 2rem;text-align: center" >
+                                    <button class="col-3 col-lg-3 col-xl-3 btn btn-info " style=" border-radius: 2rem;text-align: center; height:36px" >
                                       <!-- <i class="ace-icon fa fa-undo bigger-110"></i> -->
                                       Cancal
                                     </button>
@@ -1839,7 +1840,8 @@ value="Add New Role" >
                               <div class="dataTables_length" id="branch_datatable_length"> 
                                 <p>Show
                                   <select name="branch_datatable_length" (ngModelChange)="refreshCountries()"
-                                    [(ngModel)]="pageSize" aria-controls="branch_datatable">
+                                    [(ngModel)]="pageSize" aria-controls="branch_datatable" style=" border: 0.46063px solid #3BB161;
+                                    border-radius: 10px;color: #004C8C; ">
                                     <option [ngValue]="10">10</option>
                                     <option [ngValue]="25">25</option>
                                     <option [ngValue]="50">50</option>
@@ -1852,12 +1854,12 @@ value="Add New Role" >
                   
                   <p><input class="w-100" type="text" style="border-radius: 20px;" [(ngModel)]="SearchText"
                   (input)="applyFilter1()" placeholder="search" aria-controls="branch_datatable">
-                  <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative; top : -28px ; right: -90%">
+                  <!-- <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative; top : -28px ; right: -90%">
                   <path d="M6.59222 7.21594C4.72692 8.64196 2.25072 8.25756 0.893999 6.59439C-0.397597 5.01336 -0.278206 2.65578 1.17775 1.19256C2.63215 -0.269108 4.97966 -0.40396 6.57981 0.881008C8.24199 2.21558 8.66218 4.69561 7.21863 6.59594C7.72721 7.09969 8.23889 7.605 8.74901 8.11186C8.80638 8.16766 8.86375 8.22346 8.91027 8.28856C9.04206 8.46991 9.02656 8.70241 8.87771 8.85897C8.7211 9.02172 8.47147 9.05272 8.2916 8.90392C8.11329 8.75667 7.95514 8.58461 7.79078 8.42031C7.38919 8.01886 6.98915 7.61585 6.59222 7.21594ZM0.890898 3.97175C0.818022 5.65507 2.20575 7.13224 3.92995 7.20664C5.65259 7.28104 7.13646 5.90308 7.20778 4.1624C7.2791 2.42638 5.90688 0.966259 4.13152 0.893408C2.42128 0.822107 0.968424 2.20163 0.890898 3.97175Z" fill="#3BB161"/>
-                  </svg>
+                  </svg> -->
                   
                   </p>
-                  <p><input *ngIf="insertRole" type="button" (click)="shownewrole1()" class="btn-info" style="border-radius: 20px; padding: 5px 25px;float: right; margin-left: 10px;" 
+                  <p><input *ngIf="insertRole" type="button" (click)="shownewrole1()" class="btn btn-info" style="border-radius: 20px; padding: 5px 25px;float: right; margin-left: 10px;" 
                   value="Add New User Role" >
                   </p>
                   </div>
@@ -2392,13 +2394,13 @@ value="Add New Role" >
                                           </div> -->
 
                                           <div class="text-center" >
-                                            <button class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center; "
+                                            <button class="col-3 col-lg-3 col-xl-3 btn  btn-info" style="border-radius: 2rem;text-align: center; "
                                             data-bs-dismiss="modal" (click)="updateUserRole()">
                                               <!-- <i class="ace-icon fa fa-check bigger-110"></i> -->
                                               Update
                                             </button>
                 
-                                            <button class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center;">
+                                            <button class="col-3 col-lg-3 col-xl-3 btn btn-info" style="border-radius: 2rem;text-align: center;">
                                               <!-- <i class="ace-icon fa fa-undo bigger-110"></i> -->
                                               Close
                                             </button>
@@ -2453,13 +2455,13 @@ value="Add New Role" >
                           </div> -->
 
                           <div class="text-center" >
-                            <button class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center; "
+                            <button class="col-3 col-lg-3 col-xl-3 btn btn-info" style="border-radius: 2rem;text-align: center;height: 36px; "
                             data-bs-dismiss="modal" (click)="addNewUserRole()">
                               <!-- <i class="ace-icon fa fa-check bigger-110"></i> -->
                               Submit
                             </button>
 
-                            <button type="reset" class="col-3 col-lg-3 col-xl-3 btn-info" style="border-radius: 2rem;text-align: center;">
+                            <button type="reset" class="col-3 col-lg-3 col-xl-3 btn btn-info" style="border-radius: 2rem;text-align: center;height: 36px;">
                               <!-- <i class="ace-icon fa fa-undo bigger-110"></i> -->
                               Cancel
                             </button>

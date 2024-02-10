@@ -579,6 +579,7 @@ h4{
 
 
 .btn-info {
+    height: 36px;
     padding: 5px 25px !important;
     margin-left: 10px !important;
     color: #fff;
@@ -589,7 +590,7 @@ h4{
     font-weight: 700;
     letter-spacing: 0em;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 20px;
 
    
 }

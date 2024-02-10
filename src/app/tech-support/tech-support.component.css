@@ -178,7 +178,7 @@ table {
   
   
   h1 {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 700;
       color: #004C8C;
       line-height : 24.53px ;
@@ -362,7 +362,7 @@ background-color:#003974!important;
 font-size: 10px;
 font-weight: 600;
 /* line-height: 30px; */
-letter-spacing: 1px;
+/* letter-spacing: 1px; */
 /* text-align: left; */
 
   }

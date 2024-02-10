@@ -181,18 +181,31 @@ table {
     margin-top: 12px;
 }
 h1 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: #004C8C;
     line-height: 24.53px;
     font-family: comfortaa;
 }
 h3{
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 700;
     color: #004C8C;
     line-height: 24.53px;
     font-family: comfortaa; 
+}
+
+
+h5{
+    font-family: Comfortaa;
+font-size: 10px;
+font-weight: 700;
+line-height: 11px;
+letter-spacing: 0em;
+/* margin-left: 190px; */
+/* height: 11px; */
+/* width: 76px; */
+
 }
 .breadcrumb {
     background-color: #F5F5F5;

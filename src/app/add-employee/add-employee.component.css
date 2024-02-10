@@ -51,6 +51,7 @@ h1 {
 
 
 .btn-info{
+    height: 36px;
     color: #fff;
     background-color: #004C8C;
     border-color: #004C8C;
@@ -105,7 +106,7 @@ color: #636363;
   
 .form-control , .form-select {
     font-weight: 400;
-    font-size: 13px; 
+    font-size: 12px; 
 }
 
 
@@ -123,13 +124,13 @@ color: #636363;
 
 .form-control {
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 12px; 
 }
 
 
 .select {
     font-weight: 400;
-    font-size: 15px; 
+    font-size: 12px; 
 }
 #photo{
     height: 100%;

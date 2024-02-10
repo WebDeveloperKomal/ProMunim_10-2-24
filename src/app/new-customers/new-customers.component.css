@@ -226,7 +226,7 @@ label{
 
 
 h1 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
     color: #004C8C;
     line-height: 24.53px;
@@ -240,6 +240,8 @@ font-weight: 700;
 line-height: 11px;
 letter-spacing: 0em;
 margin-left: 180px;
+height: 11px;
+/* width: 76px; */
 
 }
 h6{
@@ -329,6 +331,7 @@ button.btn-info {
     font-family: Comfortaa;
     font-size: 12px !important;
     font-weight: 600;
+
 }
 
 .pag .ngb-pagination {
